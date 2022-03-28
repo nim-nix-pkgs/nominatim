@@ -11,7 +11,6 @@
   inputs.src-nominatim-master.ref   = "refs/heads/master";
   inputs.src-nominatim-master.owner = "juancarlospaco";
   inputs.src-nominatim-master.repo  = "nim-nominatim";
-  inputs.src-nominatim-master.dir   = "";
   inputs.src-nominatim-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

@@ -11,7 +11,6 @@
   inputs.src-nominatim-0_1_5.ref   = "refs/tags/0.1.5";
   inputs.src-nominatim-0_1_5.owner = "juancarlospaco";
   inputs.src-nominatim-0_1_5.repo  = "nim-nominatim";
-  inputs.src-nominatim-0_1_5.dir   = "";
   inputs.src-nominatim-0_1_5.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
